@@ -3,9 +3,6 @@ class "PM"
 function PM:__init ( )
 	self.messages = { }
 	self.GUI = { }
-	for i = 1, 50 do
-		table.insert ( self.messages, "This is a fucking test message yay!" )
-	end
 
 	self.GUI.window = GUI:Window ( "Private Messaging", Vector2 ( 0.5, 0.5 ) - Vector2 ( 0.4, 0.61 ) / 2, Vector2 ( 0.4, 0.61 ) )
 	self.GUI.window:SetVisible ( false )
