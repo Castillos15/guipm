@@ -134,8 +134,6 @@ function PM:refreshList ( )
 	end
 end
 
-pm = PM ( )
-
 class "GUI"
 
 local textBoxTypes =
@@ -226,3 +224,5 @@ function GUI:ScrollControl ( pos, size, parent )
 
 	return scroll
 end
+
+pm = PM ( )
